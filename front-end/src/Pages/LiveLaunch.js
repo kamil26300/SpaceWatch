@@ -16,7 +16,7 @@ const LiveLaunch = () => {
 	});
 
 	return (
-		<div id="FutureLaunches" className="LiveLaunch w-[80%] mx-auto">
+		<div id="FutureLaunches" className="LiveLaunch w-[80%] mx-auto mt-[180px]">
 			<h1 className="text-4xl font-bold my-4">Future Launches: </h1>
 			<div className="scrollbar-none flex overflow-x-auto gap-[2.5vh]">
 				{LiveCards}

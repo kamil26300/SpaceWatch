@@ -22,7 +22,16 @@ const Card = ({ obj, id }) => {
 				<p className="text-[#e4dada] mb-4">
 					{obj.launch_description}
 				</p>
-				<a href="/" className="text-blue-500 hover:text-blue-700 font-bold">
+        <p className="text-[#e4dada] mb-4">
+					Provider: {obj.provider.name}
+				</p>
+        <p className="text-[#e4dada] mb-6">
+					Vehicle: {obj.vehicle.name}
+				</p>
+        <p className="text-[#e4dada] mb-6">
+					{obj.quicktext}
+				</p>
+				<a href={'/launches/'+obj.id} className="text-blue-500 hover:text-blue-700 font-bold">
 					Read More
 				</a>
 			</div>

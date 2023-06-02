@@ -57,8 +57,8 @@ const Hamburger = () => {
 						</a>
 					</li>
 					<li>
-						<a href="/" className="hover:text-gray-300">
-							Contact
+						<a href="AOPD" className="hover:text-gray-300">
+							AOPD
 						</a>
 					</li>
 				</ul>

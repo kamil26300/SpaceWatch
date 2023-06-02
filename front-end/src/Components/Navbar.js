@@ -1,5 +1,7 @@
 import React from "react";
 import Hamburger from "../Components/Hamburger"
+import SpaceWatch from "../Images/SpaceWatch.svg"
+import Logo from "../Images/logo.svg"
 
 const Navbar = () => {
 	return (
@@ -7,8 +9,8 @@ const Navbar = () => {
 			<div className="container mx-auto px-4">
 				<div className="flex items-center justify-between py-4">
 					<div className="text-lg font-semibold lg:flex gap-5">
-						<img className="w-28" src="logo.svg" alt="logo" />
-						<img className="mt-1 lg:mt-0 w-28 lg:w-56" src="SpaceWatch.svg" alt="logo" />
+						<img className="w-28" src={Logo} alt="logo" />
+						<img className="mt-1 lg:mt-0 w-28 lg:w-56" src={SpaceWatch} alt="logo" />
 					</div>
 					<ul className="flex space-x-4">
 						<li>
@@ -27,8 +29,8 @@ const Navbar = () => {
 							</a>
 						</li>
 						<li>
-							<a href="/" className="hover:text-gray-300 hidden lg:block">
-								Contact
+							<a href="#AOPD" className="hover:text-gray-300 hidden lg:block">
+								AOPD
 							</a>
 						</li>
 					</ul>
