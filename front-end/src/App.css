@@ -1,0 +1,13 @@
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  width: calc((80vw - 5vh)/2);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+  width: 80vw;
+  }
+}
