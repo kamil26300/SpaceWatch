@@ -30,7 +30,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a href="#AOPD" className="hover:text-gray-300 hidden lg:block">
-								AOPD
+								APOD
 							</a>
 						</li>
 					</ul>

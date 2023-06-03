@@ -58,7 +58,7 @@ const Hamburger = () => {
 					</li>
 					<li>
 						<a href="AOPD" className="hover:text-gray-300">
-							AOPD
+							APOD
 						</a>
 					</li>
 				</ul>

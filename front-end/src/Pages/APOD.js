@@ -11,7 +11,6 @@ const LiveLaunch = () => {
 			)
 			.then((res) => setApod(res.data));
 	}, []);
-	console.log(Apod);
 
 	const Card1 = () => {
 		return (

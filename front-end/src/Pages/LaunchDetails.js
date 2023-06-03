@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios'
 import Logo from "../Images/logo.svg"
 import SpaceWatch from "../Images/SpaceWatch.svg"
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 const LaunchDetails = () => {
-  const id = useParams()
+  // const id = useParams()
   let [results, setResults] = useState([]);
 	useEffect(() => {
 		axios
